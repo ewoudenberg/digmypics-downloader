@@ -1,5 +1,5 @@
 # digmypics-downloader
-Python-based command line tool for downloading finished images from the DigMyPics image digitization service
+Python3-based command line tool for downloading finished images from the DigMyPics image digitization service
 
 Once your order is paid for, you can use this program (along with your DigMyPics order number and your zip code) to download your images from DigMyPics.
 
@@ -20,6 +20,7 @@ usage: digmypics-downloader.py <ORDER-NUMBER> <ZIP-CODE> <LOCAL-DOWNLOAD-DIRECTO
 Example run:
 
 ```
+$ pip install requests
 $ python3 digmypics-downloader.py 890000 03000 ~/Pictures/digmypics2
 2099 photos in the order, 2022 left to go.
 downloading /Users/ericwoudenberg/Pictures/digmypics2/Negatives_03/Negatives_03_006.jpg --  2.92s  3.67%  eta: 2020-05-21 09:58
