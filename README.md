@@ -20,7 +20,7 @@ usage: digmypics-downloader.py <ORDER-NUMBER> <ZIP-CODE> <LOCAL-DOWNLOAD-DIRECTO
 Example run:
 
 ```
-$ python digmypics-downloader.py 890000 03000 ~/Pictures/digmypics2
+$ python3 digmypics-downloader.py 890000 03000 ~/Pictures/digmypics2
 2099 photos in the order, 2022 left to go.
 downloading /Users/ericwoudenberg/Pictures/digmypics2/Negatives_03/Negatives_03_006.jpg --  2.92s  3.67%  eta: 2020-05-21 09:58
 downloading /Users/ericwoudenberg/Pictures/digmypics2/Negatives_03/Negatives_03_007.jpg --  2.82s  3.72%  eta: 2020-05-21 09:56
